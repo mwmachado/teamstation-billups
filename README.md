@@ -2,6 +2,20 @@
 
 This repository contains a data engineering analysis using sample merchant and historical transaction data.
 
+## Running The Notebook
+
+This project uses Docker to provide JupyterLab, Python, Spark, PySpark, and parquet support.
+
+```bash
+docker compose up
+```
+
+Then open JupyterLab at http://localhost:8888 and run:
+
+```text
+notebooks/billups_case_study.ipynb
+```
+
 ## Source Data
 
 - `source/merchants-subset.csv`: sample merchant attributes.
