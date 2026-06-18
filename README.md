@@ -2,6 +2,10 @@
 
 This repository contains a data engineering analysis using sample merchant and historical transaction data.
 
+## Notebook Report
+
+The main implementation and report are in [`notebooks/billups_case_study.ipynb`](notebooks/billups_case_study.ipynb). Open it in GitHub or JupyterLab to review the markdown explanation, PySpark code, result tables, chart, and final recommendations.
+
 ## Running The Notebook
 
 This project uses Docker to provide JupyterLab, Python, Spark, PySpark, and parquet support.
